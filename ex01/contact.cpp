@@ -2,7 +2,7 @@
 #include "./PhoneBook.hpp"
 #include <iostream>
 
-Contact::Contact() : name(""), phone_num("") {}
+Contact::Contact() : name(""), lastName(""), nickname(""), phone_num(""), darkestSecret("") {}
 
 void Contact::setName(const std::string &newName) { name = newName; }
 
