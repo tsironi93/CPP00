@@ -63,8 +63,11 @@ static void displayIndex(PhoneBook *phoneBook) {
             << std::endl;
   std::cout << C << "~~> " << Res;
   input = safe_read();
-  if (!isDigitsOnly(input))
+  if (!isDigitsOnly(input)) {
+    std::cout << R << Bold << "Non digit input" << std::endl
+              << "Returning to main manu" << Res << std::endl;
     return;
+  }
   phoneBook->displayContactIndex(input);
   std::cout << std::endl;
 }
