@@ -1,4 +1,4 @@
-NAME        = account
+NAME        = megaphone
 #BONUS_NAME  = _bonus
 
 CXX         = c++

@@ -2,7 +2,7 @@ NAME        = Account
 #BONUS_NAME  = _bonus
 
 CXX         = c++
-CXXFLAGS    = -Wall -Wextra -Werror -O2 -std=c++17 #-g -fsanitize=address -fno-omit-frame-pointer
+CXXFLAGS    = -std=c++98 #-Wall -Wextra -Werror -O2 #-g -fsanitize=address -fno-omit-frame-pointer
 
 SRC_DIR         = .
 OBJ_DIR         = src_o
